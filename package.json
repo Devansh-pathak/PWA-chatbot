@@ -1,0 +1,19 @@
+{
+  "name": "my-chatbot-pwa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && workbox generateSW workbox-config.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8",
+    "workbox-cli": "^7.0.0"
+  } 
+  
+  
+  
+  
+}
